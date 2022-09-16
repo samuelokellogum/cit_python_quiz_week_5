@@ -20,3 +20,15 @@ class Transactions:
         self.account = account
         self.amount = amount
         self.type = type
+
+
+bank = Bank("Stanbic", "213125632361")
+customer = Customer("Samuel", "37434345")
+bank_account = BankAccount('765377633434', 23000, 'Samuel', 'Current Account')
+
+
+print(bank)
+print(customer)
+print(bank_account)
+transaction = Transactions('242424324', 50000, 'Fixed Account')
+
